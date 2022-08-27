@@ -25,18 +25,18 @@ for(const producto of productos){
 
         cartas.append(carta);
 }
-let boton = document.getElementById([producto.id]) 
- document.getElementById("boton"), boton.addEventListener("click",() => {
- console.log ("agregaste al carrito")
- miCarrito.push (producto);
- });
-
-
-
-
-productos.forEach(producto) 
-document.getElementById(btn$[boton.id]).addEventListener("click", function(){
-
-    agregarAlCarrito(producto)
-
-    })
+let tabla=document.createElement("table");
+tabla.className="table table-striped";
+let tablaBody=document.createElement("tbody");
+for(const producto of productos){
+  tablaBody.innerHTML+=`
+  <tr>
+    <td>${producto.id}</td>
+    <td>${producto.titulo}</td>
+    <td>${producto.precio}</td>
+    </tr>
+  `;
+}
+tabla.append(tablaBody);
+let articuloInferior=document.getElementById("inferior");
+articuloInferior.append(tabla);
