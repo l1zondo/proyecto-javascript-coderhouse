@@ -1,0 +1,63 @@
+@media
+    (max-width: 550px){
+    .banner2{
+            article{
+                    img {
+                         width: 20rem;
+                         margin-left: 2rem;
+                        margin-bottom: 2rem;
+                         }
+                 }
+         }
+}
+
+
+.contenedor{
+    background-image: url(../img/fondodeweb.jpg);
+}
+section{
+    &.banner2{
+        display: flex;
+        margin: auto;
+        width: auto;
+        justify-content: center;
+        background-image: url(../img/fondopagina.png);
+    }
+}
+.VideoMarca{
+    display: flex;
+    width: 100%;
+}
+
+h2{
+    &.historia{
+        text-align: center;
+        background: linear-gradient(black, red);
+         color: antiquewhite;
+         padding: 10px;
+    }
+}
+h2{
+    &.video__banner {
+    text-align: center;
+    color: antiquewhite;
+    padding: 10px;
+    background: linear-gradient(black, red);
+      }
+    }
+    iframe{
+            &.video__local {
+                border: solid 5px red;
+                margin-left: 34%;
+                overflow: auto;
+                box-shadow: none;
+                
+             }
+ }
+ @media (max-width: 850px) {
+    .seccion__video
+    {display: none; }
+ }
+.seccion__video{
+    background-image: url(../img/fondopagina.png);
+}

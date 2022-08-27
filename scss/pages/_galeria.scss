@@ -1,0 +1,15 @@
+.tituloGaleria {
+    text-align: center;
+    color: antiquewhite;
+  }
+  .promo {
+    text-align: center;
+    font-weight: bolder;
+    display: flex;
+  }
+  
+  @media (min-width: 1024px){
+    main {
+      background-image: url(../img/fondopagina.png);
+    }
+  }

@@ -1,0 +1,28 @@
+.chicosSection{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 30px;
+}
+.mickeyGcard{
+    padding: 50px;
+}
+.textoMickeyGris,
+.textoMickeyBlanca,
+.textoNoLimit{
+    text-decoration: line-through;
+}
+.mickeyBcard{
+    padding: 50px;
+    
+}
+.noLimitCard{
+    padding: 50px;
+}
+h1.tituloChicos{
+    display: flex;
+    justify-content: center;
+    color: antiquewhite;
+    text-align: center;
+}

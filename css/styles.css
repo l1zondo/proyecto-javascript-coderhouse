@@ -1,0 +1,324 @@
+.historia--texto {
+  color: antiquewhite;
+}
+
+.historia--texto {
+  color: antiquewhite;
+}
+
+h2.historia, h2.historia-inactiva {
+  text-align: center;
+  background: linear-gradient(black, red);
+  color: antiquewhite;
+}
+
+.historia-inactiva {
+  text-shadow: none;
+  text-overflow: ellipsis;
+}
+
+.historia, .historia-inactiva {
+  width: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 1rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: rgb(28, 16, 16);
+}
+
+/* Header */
+header nav ul li {
+  list-style-type: none;
+}
+header nav ul a {
+  text-decoration: none;
+  margin: 5px;
+}
+
+.colorNav:hover {
+  color: red;
+}
+
+header nav ul li a:hover {
+  animation: links 2s ease-out none;
+}
+@keyframes links {
+  0% {
+    transform: translate(-10%, 0);
+  }
+  25% {
+    font-size: 1.3rem;
+  }
+}
+
+.contenedor {
+  background-image: url(../img/fondodeweb.jpg);
+}
+
+img.carousel-inner {
+  object-fit: unset;
+}
+
+.footercontenedor {
+  background-image: url(../img/fondodeweb.jpg);
+}
+
+.direccion {
+  display: flex;
+  width: 100%;
+}
+
+.textoFooter {
+  color: red;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.textoFooter:hover {
+  animation: links 2s ease-out none;
+}
+@keyframes links {
+  0% {
+    transform: translate(-2%, 0);
+  }
+  25% {
+    font-size: 1.5rem;
+  }
+}
+
+#fotoredes {
+  display: flex;
+  width: 100px;
+}
+
+.mapaLocal {
+  display: flex;
+}
+
+.mapaIframe {
+  width: 25rem;
+  height: 10rem;
+}
+
+.footerGrid {
+  display: grid;
+  grid-template-rows: 5rem;
+}
+
+.iconoFacebook {
+  width: 2rem;
+  height: 2rem;
+}
+
+.iconoInstagram {
+  width: 2rem;
+  height: 2rem;
+}
+
+.card {
+  display: flex;
+  text-align: center;
+}
+
+.contenedorJean {
+  display: flex;
+  justify-content: start;
+  padding: 20px 20px;
+}
+
+.contenedorCamisa {
+  display: flex;
+  justify-content: center;
+  padding: 10px 5px;
+}
+
+.contenedorRemera {
+  display: flex;
+  justify-content: end;
+  padding: 50px;
+}
+
+.tituloHombre {
+  display: flex;
+  text-align: center;
+  color: antiquewhite;
+}
+
+@media (max-width: 550px) {
+  .banner2 article img {
+    width: 20rem;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+  }
+}
+.contenedor {
+  background-image: url(../img/fondodeweb.jpg);
+}
+
+section.banner2 {
+  display: flex;
+  margin: auto;
+  width: auto;
+  justify-content: center;
+  background-image: url(../img/fondopagina.png);
+}
+
+.VideoMarca {
+  display: flex;
+  width: 100%;
+}
+
+h2.historia, h2.historia-inactiva {
+  text-align: center;
+  background: linear-gradient(black, red);
+  color: antiquewhite;
+  padding: 10px;
+}
+
+h2.video__banner {
+  text-align: center;
+  color: antiquewhite;
+  padding: 10px;
+  background: linear-gradient(black, red);
+}
+
+iframe.video__local {
+  border: solid 5px red;
+  margin-left: 34%;
+  overflow: auto;
+  box-shadow: none;
+}
+
+@media (max-width: 850px) {
+  .seccion__video {
+    display: none;
+  }
+}
+.seccion__video {
+  background-image: url(../img/fondopagina.png);
+}
+
+.formulario {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+}
+
+.formulario label {
+  background-color: green;
+  display: flex;
+  margin: 20px 0;
+}
+
+section.formulario {
+  margin: 0%;
+}
+
+.contenedor {
+  background-image: url(../img/fondodeweb.jpg);
+}
+
+.tituloContacto {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  color: antiquewhite;
+}
+
+.textoContacto {
+  display: flex;
+  text-align: center;
+  padding: 20px;
+  justify-content: center;
+  color: red;
+  font-size: larger;
+  font-weight: 400;
+  background-color: antiquewhite;
+}
+
+.tituloGaleria {
+  text-align: center;
+  color: antiquewhite;
+}
+
+.promo {
+  text-align: center;
+  font-weight: bolder;
+  display: flex;
+}
+
+@media (min-width: 1024px) {
+  main {
+    background-image: url(../img/fondopagina.png);
+  }
+}
+.bannerMujer {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 30px;
+}
+
+.tituloMujer {
+  text-align: center;
+  color: antiquewhite;
+  padding: 25px;
+}
+
+.remeraMujer {
+  padding: 20px;
+}
+
+.conjuntoMujer {
+  padding: 20px;
+}
+
+.buzoMujer {
+  padding: 20px;
+}
+
+.chicosSection {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 30px;
+}
+
+.mickeyGcard {
+  padding: 50px;
+}
+
+.textoMickeyGris,
+.textoMickeyBlanca,
+.textoNoLimit {
+  text-decoration: line-through;
+}
+
+.mickeyBcard {
+  padding: 50px;
+}
+
+.noLimitCard {
+  padding: 50px;
+}
+
+h1.tituloChicos {
+  display: flex;
+  justify-content: center;
+  color: antiquewhite;
+  text-align: center;
+}
+
+/*# sourceMappingURL=styles.css.map */

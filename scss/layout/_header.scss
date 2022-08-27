@@ -1,0 +1,33 @@
+/* Header */
+header{
+    nav{
+        ul {
+            li{list-style-type: none;}
+                a {text-decoration: none;
+                margin: 5px;
+            }
+        }
+    }
+}
+.colorNav{
+    &:hover{
+        color: red;
+    }
+}
+header{
+    nav{
+        ul{
+            li{
+                a{          
+                    &:hover{
+                        animation: links 2s ease-out none;}
+                     @keyframes links {
+                                  0% {
+                        transform: translate(-10%, 0);}
+                                25% {
+                         font-size: 1.3rem;}}
+                    }
+                }
+            }
+        }
+    }

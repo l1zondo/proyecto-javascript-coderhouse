@@ -1,0 +1,25 @@
+.card{
+  display: flex;
+  text-align: center;
+}
+.contenedorJean{
+  display: flex;
+  justify-content: start;
+  padding: 20px 20px;
+
+}
+.contenedorCamisa{
+  display: flex;
+justify-content: center;
+padding: 10px 5px;
+}
+.contenedorRemera{
+  display: flex;
+  justify-content: end;
+  padding: 50px;
+}
+.tituloHombre{
+  display: flex;
+  text-align: center;
+  color: antiquewhite;
+}

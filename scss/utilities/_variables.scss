@@ -1,0 +1,36 @@
+
+$textos: (
+    hist:antiquewhite,
+    loc:antiquewhite,
+
+
+);
+
+@each $texto,$color in $textos{
+
+    .historia--#{texto}{
+        color:$color;
+    }
+}
+h2{
+    &.historia{
+        text-align: center;
+        background: linear-gradient(black, red);
+         color: antiquewhite;}
+    
+    }
+.historia-inactiva{
+    @extend .historia;
+    text-shadow: none;
+    text-overflow: ellipsis;
+}
+@mixin d-flex($justify,$align){
+    display: flex;
+    justify-content: $justify;
+    align-items: $align;
+
+}
+.historia{
+    width: auto;
+    @include d-flex(space-around,center )
+}

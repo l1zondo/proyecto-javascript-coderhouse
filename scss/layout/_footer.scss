@@ -1,0 +1,47 @@
+.footercontenedor {
+    background-image: url(../img/fondodeweb.jpg)
+  }
+  .direccion {
+    display: flex;
+    width: 100%;
+  }
+  
+  .textoFooter {
+    color: red;
+    font-size: 1.2rem;
+    font-weight: bold;
+    &:hover{
+        animation: links 2s ease-out none;
+}
+@keyframes links {
+  0% {
+    transform: translate(-2%, 0);
+  }
+  25% {
+    font-size: 1.5rem;
+  }
+}
+}
+#fotoredes {
+    display: flex;
+    width: 100px;
+  }
+  .mapaLocal{
+    display: flex;
+    }
+         .mapaIframe{
+         width: 25rem;
+         height: 10rem;
+  }
+  .footerGrid{
+display: grid;
+grid-template-rows:5rem;
+  }
+  .iconoFacebook{
+    width: 2rem;
+    height: 2rem;
+  }
+  .iconoInstagram{
+    width: 2rem;
+    height: 2rem;
+  }
