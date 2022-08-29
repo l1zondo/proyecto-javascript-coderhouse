@@ -1,5 +1,7 @@
 console.dir(document.body)
 
+const carrito=[];
+
 const productos=[{id: 1, titulo:"camisa vaquita", precio:4500,imagen:"../img/camisa-vaquita.jpg"},
 
 {id: 2, titulo:"jean elastizado azul", precio:5000, imagen:"../img/Jean-hombre.jpg"},
@@ -16,11 +18,10 @@ for(const producto of productos){
     carta.className="card col-md-2";
     carta.innerHTML=`
     <div class="card-body">
-    <img class="card-img-top"src="${producto.imagen}"alt="imagen de jean">
     <img class="card-img-top"src="${producto.imagen}"alt="imagen">
           <h5 class="card-title">${producto.titulo}</h5>
           <p class="card-text">${producto.precio}</p>     
-          <a href="#" class="btn btn-primary id="">COMPRAR</a>
+          <a href="#" id="miBoton"${producto.boton} class="btn btn-primary id="">COMPRAR</a>
         </div>`;
 
         cartas.append(carta);
@@ -40,3 +41,12 @@ for(const producto of productos){
 tabla.append(tablaBody);
 let articuloInferior=document.getElementById("inferior");
 articuloInferior.append(tabla);
+
+let miBoton=document.getElementById("miBoton");
+
+miBoton.onclick=()=>{
+  console.log("agregaste el producto a tu carrito");
+  carrito.push(productos);
+  console.log(carrito);
+}
+   
