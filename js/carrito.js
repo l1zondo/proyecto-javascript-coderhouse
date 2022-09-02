@@ -10,7 +10,6 @@ const productos=[{id: 1, titulo:"camisa vaquita", precio:4500,imagen:"../img/cam
 
 {id: 4, titulo:"remera mickey mouse", precio:2500 ,imagen:"../img/mickey-chicos.jpg"},
 ];
- console.log(productos)
 
  let cartas=document.getElementById("cartas");
 for(const producto of productos){
@@ -45,8 +44,10 @@ articuloInferior.append(tabla);
 let miBoton=document.getElementById("miBoton");
 
 miBoton.onclick=()=>{
-  console.log("agregaste el producto a tu carrito");
   carrito.push(productos);
   console.log(carrito);
-}
-   
+  Swal.fire(
+    'Producto agregado',
+    'Pronto llegara!',
+    'success'
+  )}
