@@ -1,6 +1,6 @@
 console.dir(document.body)
 
-// ARRAY
+// ARRAY DE PRODUCTOS
 const carrito=[];
 
 const productos=[{id: 1, titulo:"camisa vaquita", precio:4500,imagen:"../img/camisa-vaquita.jpg"},

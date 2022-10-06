@@ -1,4 +1,4 @@
-// TABLA
+// TABLA CARRITO
 
 let tabla=document.createElement("table");
 document.getElementById("tablabody")
@@ -14,7 +14,7 @@ for(const producto of productos){
   `;
 }
 
-// BOTON COMPRAR
+// Suma de productos al carrito con JSON
 function agregarAlCarrito(producto){
     carrito.push(producto);
     Swal.fire(

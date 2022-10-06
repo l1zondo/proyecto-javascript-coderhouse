@@ -1,4 +1,4 @@
-// TARJETAS
+// TARJETAS EN CARRITO
 let cartas=document.getElementById("cartas");
 for(const producto of productos){
     let carta=document.createElement("div");
