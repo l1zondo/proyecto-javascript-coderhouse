@@ -321,4 +321,13 @@ h1.tituloChicos {
   text-align: center;
 }
 
+.CartasJs{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 2rem;
+  margin-left: 20%;
+}
+
 /*# sourceMappingURL=styles.css.map */
